@@ -1,27 +1,46 @@
 PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - JJLog (0.1.0)
+  - JJLog (0.1.0):
+    - AFNetworking
 
 DEPENDENCIES:
+  - AFNetworking
   - FBSnapshotTestCase
-  - JJLog (from `../`)
+  - JJLog (from `../JJLog.podspec`)
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   JJLog:
-    :path: "../"
+    :path: "../JJLog.podspec"
 
 SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JJLog: fd10a727de4a36e81663d31b2ce9dc8ef25ca487
+  JJLog: f42f40652c01e7d82b0684adbb98338c991a36f1
 
-PODFILE CHECKSUM: eb5b55e16f75ddec3104b94de0fdf363760e26f6
+PODFILE CHECKSUM: 7a49809e980abfaeb5580f16c32bb350aba23b03
 
 COCOAPODS: 1.9.3

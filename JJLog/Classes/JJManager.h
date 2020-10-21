@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)test_log;
 
+- (void)test_network;
+
 @end
 
 NS_ASSUME_NONNULL_END

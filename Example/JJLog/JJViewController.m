@@ -7,6 +7,8 @@
 //
 
 #import "JJViewController.h"
+#import <JJManager.h>
+#import <AFNetworking.h>
 
 @interface JJViewController ()
 
@@ -18,6 +20,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    JJManager *manager = [JJManager new];
+    [manager test_log];
+    [manager test_network];
 }
 
 - (void)didReceiveMemoryWarning

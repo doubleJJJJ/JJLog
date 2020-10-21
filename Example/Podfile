@@ -3,7 +3,9 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'JJLog_Example' do
-  pod 'JJLog', :path => '../'
+  pod 'JJLog', :path => '../JJLog.podspec'
+  pod 'AFNetworking' # 依赖AFNetworking
+
 
   target 'JJLog_Tests' do
     inherit! :search_paths
