@@ -1,0 +1,22 @@
+{
+  "name": "JJLog",
+  "version": "0.1.0",
+  "summary": "A short description of JJLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/doubleJ/JJLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "doubleJ": "517469920@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/doubleJ/JJLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JJLog/Classes/**/*"
+}

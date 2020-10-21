@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JJLog (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JJLog (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JJLog:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JJLog: fd10a727de4a36e81663d31b2ce9dc8ef25ca487
+
+PODFILE CHECKSUM: eb5b55e16f75ddec3104b94de0fdf363760e26f6
+
+COCOAPODS: 1.9.3
